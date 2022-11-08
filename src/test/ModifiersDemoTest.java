@@ -29,7 +29,7 @@ public class ModifiersDemoTest extends DefaultModifiersDemo1{
  * g
  *
  *
- */
+
         PrivateModifierDemo1 pmd = new PrivateModifierDemo1();
         System.out.println(pmd.intVariable);
         System.out.println(pmd.stringVariable);
@@ -41,7 +41,7 @@ public class ModifiersDemoTest extends DefaultModifiersDemo1{
         System.out.println(pmd.stringVariable);
         pmd.method2();
         pmd.method1();
-
+*/
 // single line comment
         System.out.println("");
     }
