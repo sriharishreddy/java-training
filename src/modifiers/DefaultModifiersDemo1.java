@@ -12,10 +12,11 @@ public class DefaultModifiersDemo1 {
      void method2(){
         System.out.println("Invoked method2()");
     }
-
+int a =10;
     public static void main(String[] args) {
         System.out.println("in main() DefaultModifiersDemo1");
         DefaultModifiersDemo1 pmd = new DefaultModifiersDemo1();
+        DefaultModifiersDemo1 test = new DefaultModifiersDemo1();
         System.out.println( pmd.intVariable);
         System.out.println( pmd.stringVariable);
         pmd.method1();
