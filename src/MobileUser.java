@@ -44,7 +44,6 @@ public class MobileUser {
         }else {
             System.out.println("Invalid Option Selected.");
         }
-
     }
 
     private static boolean isMobileNoValid(String mobileNo){
@@ -53,6 +52,5 @@ public class MobileUser {
         }else{
             return false;
         }
-
     }
 }
